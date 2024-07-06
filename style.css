@@ -5,7 +5,7 @@
 }
 
 .colorcontainer{
-    background-color: #1D2526;
+    background-color: #2E2E2E;
     color: white;
 }
 
@@ -17,7 +17,38 @@
     color: #AADA3F;
 }
 
+.jumbotron{
+    height: 300px;
+    background-image: url(/download.jpg);
+    color: white;
+}
+.name{
+    color: #AADA3F;
+}
+.fullstack{
+    color:#e6e6e6;
+}
+
+.imgpc img{
+    width: 200px;
+    animation: animazione  3s infinite linear;
+}
+
+@keyframes animazione {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(10px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+    
+}
+
 
 /**  fine header */
+
 
 
