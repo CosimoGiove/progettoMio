@@ -28,3 +28,25 @@ window.addEventListener('scroll', () => {
     masterElement.classList.add('active');
   }
 });
+
+const masterElements = document.querySelector('.animazione');
+
+window.addEventListener('scroll', () => {
+  const scrollPosition = window.scrollY + window.innerHeight;
+  const elementPosition = masterElements.offsetTop;
+
+  if (scrollPosition >= elementPosition) {
+    masterElements.classList.add('active');
+  }
+});
+
+const masterElementss = document.querySelector('.animazione2');
+
+window.addEventListener('scroll', () => {
+  const scrollPosition = window.scrollY + window.innerHeight;
+  const elementPosition = masterElementss.offsetTop;
+
+  if (scrollPosition >= elementPosition) {
+    masterElementss.classList.add('active');
+  }
+});

@@ -117,23 +117,25 @@ main{
 
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
+    background-color: #171C1F;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 
 
   }
 
   .ciao{
-    border: 2px solid black;
     word-break: break-all;
     border-radius: 10px;
+    box-shadow: 1px 1px 2px 2px  #AADA3F;
 
-  }
-  ul{
-    list-style: none;
   }
   i{
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 15px;
 
   }
   
@@ -145,8 +147,29 @@ main{
   .master {
     opacity: 0;
     transform: translateY(20px);
-    transition: opacity 1s, transform 1s;
+    transition: opacity 3s, transform 2s;
   }
+
+  .animazione{
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 3s, transform 2s;   
+  }
+  .animazione.active{ 
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .animazione2{
+        opacity: 0;
+        transform: translateY(20px);
+        transition: opacity 3s, transform 2s;    
+    }
+
+    .animazione2.active{
+        opacity: 1;
+    transform: translateY(0); 
+    }
 
   .master.active {
     opacity: 1;
@@ -189,5 +212,26 @@ main{
       opacity: 1;
       transform: translateY(0);
     }
+  }
+
+  .abilita{
+    width: 100%;
+    height: 10px;
+    background-color: white;
+  }
+
+  .abilita div{
+    width: 99%;
+    height: 10px;
+    background-color: #AADA3F;
+  }
+
+  .teck{
+    color: white;
+  }
+
+  .animazione{
+    padding-bottom: 20px;
+    background-color: #171C1F;
   }
 
