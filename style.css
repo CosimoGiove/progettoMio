@@ -50,7 +50,7 @@
 }
 
 .imgpc img{
-    width: 300px;
+    width: 350px;
     animation: animazione  3s infinite linear;
 }
 
@@ -235,3 +235,11 @@ main{
     background-color: #171C1F;
   }
 
+  footer{
+    background-color: black;
+    color: white;
+    padding-bottom: 10px;
+  }
+  main{
+    padding-bottom: 10px;
+  }
