@@ -54,8 +54,12 @@
 }
 
 .imgpc img{
-    width: 200px;
+    width: 300px;
     animation: animazione  3s infinite linear;
+}
+
+.bordo2{
+    border-bottom: 2px solid #AADA3F ;
 }
 
 .imgpc{
