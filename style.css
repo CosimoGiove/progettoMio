@@ -30,6 +30,15 @@
     color: white;
     background-position: center;
     margin-top: 85px;
+    height: 90vh;
+
+}
+
+.centrale{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
 }
 .name{
     color: #AADA3F;
@@ -41,9 +50,14 @@
 }
 
 .imgpc img{
-    width: 200px;
+    width: 300px;
     animation: animazione  3s infinite linear;
 }
+
+.imgpc{
+    text-align: center;
+}
+
 
 .no_underline{
    text-decoration: none;
@@ -80,6 +94,7 @@
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
 
 main{
     background-color: #1E2326;
@@ -126,6 +141,16 @@ main{
     opacity: 0;
     transform: translateY(20px);
     transition: opacity 3s, transform 2s;
+  }
+  .master {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s, transform 1s;
+  }
+
+  .master.active {
+    opacity: 1;
+    transform: translateY(0);
   }
   
   .prova .ciao.show {

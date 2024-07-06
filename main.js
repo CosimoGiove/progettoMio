@@ -17,3 +17,14 @@ window.addEventListener('scroll', () => {
     }
   });
 });
+
+const masterElement = document.querySelector('.master');
+
+window.addEventListener('scroll', () => {
+  const scrollPosition = window.scrollY + window.innerHeight;
+  const elementPosition = masterElement.offsetTop;
+
+  if (scrollPosition >= elementPosition) {
+    masterElement.classList.add('active');
+  }
+});
