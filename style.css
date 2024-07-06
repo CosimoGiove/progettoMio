@@ -1,0 +1,23 @@
+/** header */
+.imgcosimo img{
+    width: 50px;
+    border-radius: 20px;
+}
+
+.colorcontainer{
+    background-color: #1D2526;
+    color: white;
+}
+
+.project{
+    cursor: pointer;
+}
+
+.project:hover{
+    color: #AADA3F;
+}
+
+
+/**  fine header */
+
+
