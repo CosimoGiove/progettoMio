@@ -29,9 +29,13 @@
     background-image: url(/download.jpg);
     color: white;
     background-position: center;
-    margin-top: 85px;
+    margin-top: 80px;
     height: 90vh;
 
+}
+
+.bordo2{
+    border-bottom: 1px solid  #AADA3F ;
 }
 
 .centrale{
