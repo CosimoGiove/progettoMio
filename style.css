@@ -35,7 +35,7 @@
 }
 
 .bordo2{
-    border-bottom: 1px solid  #AADA3F ;
+    /* border-bottom: 1px solid  #AADA3F ; */
 }
 
 .centrale{
@@ -54,7 +54,7 @@
 }
 
 .imgpc img{
-    width: 350px;
+    width: 200px;
     animation: animazione  3s infinite linear;
 }
 
