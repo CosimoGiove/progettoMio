@@ -150,18 +150,18 @@ main{
   
   .prova .ciao {
     opacity: 0;
-    transform: translateY(20px);
+    transform: translateY(-30px);
     transition: opacity 3s, transform 2s;
   }
   .master {
     opacity: 0;
-    transform: translateY(20px);
+    transform: translateY(-30px);
     transition: opacity 3s, transform 2s;
   }
 
   .animazione{
     opacity: 0;
-    transform: translateY(20px);
+    transform: translateY(-30px);
     transition: opacity 3s, transform 2s;   
   }
   .animazione.active{ 
@@ -171,7 +171,7 @@ main{
 
     .animazione2{
         opacity: 0;
-        transform: translateY(20px);
+        transform: translateY(-30px);
         transition: opacity 3s, transform 2s;    
     }
 
@@ -193,7 +193,7 @@ main{
   @keyframes fade-in {
     0% {
       opacity: 0;
-      transform: translateY(100px);
+      transform: translateY(-30px);
     }
     100% {
       opacity: 1;
@@ -203,7 +203,7 @@ main{
 
   .col-12 p {
     opacity: 0;
-    transform: translateY(20px);
+    transform: translateY(-30px);
     transition: opacity 3s, transform 2s;
   }
   
@@ -215,7 +215,7 @@ main{
   @keyframes fade-in {
     0% {
       opacity: 0;
-      transform: translateY(20px);
+      transform: translateY(-30px);
     }
     100% {
       opacity: 1;
