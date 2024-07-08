@@ -50,3 +50,26 @@ window.addEventListener('scroll', () => {
     masterElementss.classList.add('active');
   }
 });
+let counter = document.getElementById('counter');
+let count = 0;
+let repositoryElement = document.querySelector('.repository');
+let incrementing = false;
+
+function incrementCounter() {
+  if (count <= 80) {
+    counter.textContent = count + "+";
+      count++;
+      
+    setTimeout(incrementCounter, 20); // increment every 100ms
+  }
+}
+
+window.addEventListener('scroll', () => {
+  let rect = repositoryElement.getBoundingClientRect();
+  if (rect.top <= window.innerHeight && !incrementing) {
+    incrementing = true;
+    incrementCounter();
+  }
+});
+
+

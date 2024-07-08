@@ -190,17 +190,6 @@ main{
     transform: translateY(0);
   }
   
-  @keyframes fade-in {
-    0% {
-      opacity: 0;
-      transform: translateY(-30px);
-    }
-    100% {
-      opacity: 1;
-      transform: translateY(0);
-
-    }
-  }
 
   .col-12 p {
     opacity: 0;
@@ -213,16 +202,6 @@ main{
     transform: translateY(0);
   }
   
-  @keyframes fade-in {
-    0% {
-      opacity: 0;
-      transform: translateY(-30px);
-    }
-    100% {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
 
   .abilita{
     width: 100%;
@@ -255,4 +234,19 @@ main{
   }
   ul{
     list-style: none;
+  }
+
+  .repository{
+    color: #AADA3F;
+  }
+  .quantita{
+    border: 1px solid #AADA3F;
+    vertical-align: middle;
+    font-size: 50px;
+    border-radius: 20px;
+    padding: 5px 5px
+  }
+
+  .github{
+    font-size: 30px;
   }
