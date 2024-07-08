@@ -161,7 +161,7 @@ main{
 
   .animazione{
     opacity: 0;
-    transform: translateY(-30px);
+    transform: translateX(-100px);
     transition: opacity 3s, transform 2s;   
   }
   .animazione.active{ 
@@ -171,13 +171,13 @@ main{
 
     .animazione2{
         opacity: 0;
-        transform: translateY(-30px);
+        transform: translateX(-100px);
         transition: opacity 3s, transform 2s;    
     }
 
     .animazione2.active{
         opacity: 1;
-    transform: translateY(0); 
+    transform: translateX(0); 
     }
 
   .master.active {
@@ -198,6 +198,7 @@ main{
     100% {
       opacity: 1;
       transform: translateY(0);
+
     }
   }
 
@@ -251,4 +252,7 @@ main{
   }
   main{
     padding-bottom: 10px;
+  }
+  ul{
+    list-style: none;
   }
