@@ -260,7 +260,11 @@ main{
 .margine{
   padding-top: 30px;
   padding-left: 30px ;
+  padding-right: 30px;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 .altezzacard{
   height: 350px !important;
