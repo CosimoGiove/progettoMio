@@ -1,4 +1,11 @@
+/* #region pagina principale*/   
 /** header */
+
+.project a {
+  text-decoration: none;
+  color: white ;
+  font-size: 16px;
+}
 .navbartop{
     position: fixed;
     z-index: 999;
@@ -34,9 +41,6 @@
 
 }
 
-.bordo2{
-    /* border-bottom: 1px solid  #AADA3F ; */
-}
 
 .centrale{
     position: absolute;
@@ -59,7 +63,7 @@
 }
 
 .bordo2{
-    border-bottom: 2px solid #AADA3F ;
+    border-bottom: 1px solid #AADA3F ;
 }
 
 .imgpc{
@@ -139,7 +143,7 @@ main{
   .ciao{
     word-break: break-all;
     border-radius: 10px;
-    box-shadow: 1px 1px 2px 2px  #AADA3F;
+    box-shadow: 1px 1px #AADA3F;
 
   }
   i{
@@ -250,3 +254,17 @@ main{
   .github{
     font-size: 30px;
   }
+  /* #endregion */
+
+/* #region pagina progetti */
+.margine{
+  padding-top: 30px;
+  padding-left: 30px ;
+  display: flex;
+}
+.altezzacard{
+  height: 350px !important;
+}
+
+/* #endregion pagina progetti */
+
