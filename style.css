@@ -301,3 +301,35 @@ main{
 }
 /* #endregion pagina progetti */
 
+/* #region pagina servizi */
+
+.contenitoreservizi{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 100px;
+  flex-wrap: wrap;
+}
+.popolare{
+  text-align: center;
+  color: #AADA3F;
+  margin-bottom: 25px;
+}
+.effetto:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+  background-color: #AADA3F;
+}
+.effetto:hover .prezzo{
+  color: black;
+}
+
+.prezzo{
+  color: #AADA3F;
+}
+.progetti a {
+  text-decoration: none;
+  color: black;
+}
+
+/* #endregion */
