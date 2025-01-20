@@ -254,6 +254,9 @@ main{
   .github{
     font-size: 30px;
   }
+  .partitaiva{
+    text-align: center;
+  }
   /* #endregion */
 
 /* #region pagina progetti */
@@ -270,5 +273,31 @@ main{
   height: 350px !important;
 }
 
+.sfondo{
+  background-color: black !important;
+  color: white;
+}
+.navbar-nav li a{
+  color: white ;
+}
+
+.container-fluid a {
+  color: white;
+}
+
+.navbar-nav li a:hover, .container-fluid a:hover{
+  color: white;
+}
+
+.navbar-brand:hover{
+  color: white !important;
+
+}
+.navbar-brand:focus{
+  color: white !important;
+}
+.navbar-toggler-icon{
+  background-color: white !important ;
+}
 /* #endregion pagina progetti */
 
