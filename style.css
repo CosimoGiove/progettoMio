@@ -331,5 +331,9 @@ main{
   text-decoration: none;
   color: black;
 }
+.effetto{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 
 /* #endregion */
