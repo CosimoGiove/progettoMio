@@ -260,17 +260,29 @@ main{
   /* #endregion */
 
 /* #region pagina progetti */
+.mainprogetti{
+  padding-top: 120px;
+}
+.tuttiprogetti{
+  color: white;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
 .margine{
   padding-top: 30px;
   padding-left: 30px ;
   padding-right: 30px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 .altezzacard{
   height: 350px !important;
+  margin-top: 50px;
 }
 
 .sfondo{
@@ -335,5 +347,6 @@ main{
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
 
 /* #endregion */
