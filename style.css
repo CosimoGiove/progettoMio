@@ -1,6 +1,17 @@
 /* #region pagina principale*/   
 /** header */
+.whatsapp{
+  position: fixed;
+  z-index: 999;
+  right: 0px;
+  bottom: 10px;
+  margin-right: 20px;
 
+}
+.whatsapp a i {
+  font-size: 50px;
+  color: green;
+}
 .project a {
   text-decoration: none;
   color: white ;
@@ -17,6 +28,11 @@
 .imgcosimo img{
     width: 50px;
     border-radius: 20px;
+    margin-left: 20px;
+}
+.imgcosimo span {
+  color: #AADA3F;
+  margin-left: 10px;
 }
 
 .colorcontainer{
@@ -150,6 +166,9 @@ main{
     margin-top: 20px;
     font-size: 15px;
 
+  }
+  .ciao ul li{
+    text-align: center;
   }
   
   .prova .ciao {
